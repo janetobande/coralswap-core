@@ -5,10 +5,10 @@ base-benchmark.json
 pr-benchmark.json
 !test/*.wasm
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
+temp_auto_push.bat
 .DS_Store
 Thumbs.db
 .env
@@ -20,3 +20,5 @@ test_snapshots/
 # Python byte cache (scripts/coverage_gate.py)
 __pycache__/
 *.py[cod]
+.gitignore
+branch_structure.json
